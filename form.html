@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student's information</h1>
+    <div class="form-container">
+    <form action="form1.php" method="POST">
+        <fieldset>
+        Full names:<br>
+        <input type="text" name="names"><br>
+        Grade:<br>
+        <input type="text" name="class"><br>
+        E-mail:<br>
+        <input type="e-mail" name="e-mail"><br>
+        Your phone:<br>
+        <input type="tel" name="some"><br>
+        Date of birth:<br>
+        <input type="date" name="dob" min="1989-01-01" max="2010-12-30"><br>
+        choose your gender: <br>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Rather not to say<br>
+        </fieldset>
+        <label for="colour">your favourite colour</label><br>
+        <input type="color" name="colour" value="#00ff00"><br>
+        <label for="volume">how do you rate this form</label><br>
+        <input type="range" name="volume" value="50" min="10" max="100"><br>
+        <fieldset>
+        choose the club that you attend<br>
+        <input type="checkbox" name="club">Media club<br>
+        <input type="checkbox" name="club">arts and design<br>
+        <input type="checkbox" name="club">STEM <br>
+        <input type="checkbox" name="club">Cyber knights <br>
+        <input type="checkbox" name="club">Others<br>
+        <input type="submit" name="submit"><br>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
